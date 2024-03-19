@@ -1,0 +1,8 @@
+path: C:\Users\yongt\Downloads\Driver drowsiness detection\Dataset # Change to your dataset path
+train: C:\Users\yongt\Downloads\Driver drowsiness detection\Dataset\train  # train images (relative to 'path')
+val: C:\Users\yongt\Downloads\Driver drowsiness detection\Dataset\val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Awake
+  1: Drowsy
