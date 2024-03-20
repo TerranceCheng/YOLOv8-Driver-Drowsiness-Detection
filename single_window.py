@@ -57,7 +57,7 @@ class Worker1(QThread):
         # Initialize YOLO model
         model = YOLO('best.pt')
         # Initialize video capture
-        cap = cv2.VideoCapture(0)
+        cap = cv2.VideoCapture(1)
 
         while self.ThreadActive:
             ret, frame = cap.read()
